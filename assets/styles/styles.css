@@ -126,6 +126,7 @@ main{
     align-items: center;
     gap: 20px;
     padding-bottom: 5%;
+    margin: auto;
 }
 
 .card-services{
@@ -135,7 +136,6 @@ main{
     flex-direction: column;
     padding: 50px 5px 10px 5px;
     margin: 10px;
-
     height: 300px;
     max-width: auto;
     background-color: rgb(240, 240, 255);
@@ -175,6 +175,7 @@ main{
     text-align: justify;
     gap: 150px;
     padding: 2% 150px 8% 150px;
+    margin: auto;
 }
 .title-us{
     align-content: center;
@@ -216,6 +217,7 @@ main{
     text-align: justify;
     gap: 150px;
     padding: 2% 150px 8% 150px;
+    margin: auto;
 }
 
 .title-contact{
@@ -240,6 +242,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     border-radius: 10px;
     padding: 15px 10px 15px 10px;
     font-size: 16px;
+    margin: auto;
 }
 textarea{
     width: 100%;
@@ -249,6 +252,7 @@ textarea{
     padding: 15px 10px;
     font-size: 16px;
     resize: none;
+    margin: auto;
 }
 
 .form label{
@@ -484,5 +488,194 @@ footer li a:hover{
     text-align: justify;
     gap: 150px;
     padding: 2% 150px 8% 150px;
+
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
+
+    /* Body: Main: Section: Services -> styles */
+
+    .servicios{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* Body: Main: Article: AcercaDe -> styles */
+
+    .about-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .about-us .title-us{
+        text-align: center;
+    }
+    .button-contact{
+        margin: 4% 8% 4% 8%;
+    }
+    .about-us .logo{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+
+    /* Body: Section: Contact-us -> styles */
+
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .title-contact{
+        text-align: center;
+    }
+    .contact-us .icon{
+        font-size: 30px;
+    }
+    .redes ul{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+    .redes li{
+        display: grid;
+        padding: 8px 10px 8px 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    textarea{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        margin-top: 2%;
+    }
+}
+
+
+
+/* MEDIA QUERIES*/
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
+
+    /* Body: Main: Section: Services -> styles */
+
+    .servicios{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* Body: Main: Article: AcercaDe -> styles */
+
+    .about-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .about-us .title-us{
+        text-align: center;
+    }
+    .button-contact{
+        margin: 4% 8% 4% 8%;
+    }
+    .about-us .logo{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+
+    /* Body: Section: Contact-us -> styles */
+
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .title-contact{
+        text-align: center;
+    }
+    .contact-us .icon{
+        font-size: 30px;
+    }
+    .redes ul{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+    .redes li{
+        display: grid;
+        padding: 8px 10px 8px 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    textarea{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        margin-top: 2%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
 
 }
