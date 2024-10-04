@@ -3,7 +3,6 @@
 /* MEDIA QUERIES */
 
 
-
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
@@ -22,11 +21,8 @@
         margin-bottom: 5px;
         border-bottom: 1px solid rgb(63, 63, 63);
     }
-    .header-menu{
-        display: grid;
-        grid-template-columns: auto;
-    }
 
+    
     /* Body: Main: Section: Services -> styles */
 
     .servicios{
@@ -107,38 +103,770 @@
         padding: 0px 0px 0px 0px;
         margin: 16% 8% 20% 8%;
     }
-    /* .footer-lists{
-
-    } */
-    /* footer .logo{
-        justify-content: center;
-        padding: auto;
-        max-width: 100%;
-        margin: auto auto auto auto;
-    } */
 }
+
+
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
+
+    /* Body: Header styles */
+
+    header{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
+
     
+    /* Body: Main: Section: Services -> styles */
+
+    .servicios{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* Body: Main: Article: AcercaDe -> styles */
+
+    .about-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .about-us .title-us{
+        text-align: center;
+    }
+    .button-contact{
+        margin: 4% 8% 4% 8%;
+    }
+    .about-us .logo{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+
+    /* Body: Section: Contact-us -> styles */
+
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .title-contact{
+        text-align: center;
+    }
+    .contact-us .icon{
+        font-size: 30px;
+    }
+    .redes ul{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+    .redes li{
+        display: grid;
+        padding: 8px 10px 8px 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    textarea{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        margin-top: 2%;
+    }
+
+    /* Body: Footer -> styles */
+
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+        align-items: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
 
+    /* Body: Header styles */
+
+    header{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
+
+    /* Body: Main: Section: Services -> styles */
+
+    .servicios{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* Body: Main: Article: AcercaDe -> styles */
+
+    .about-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .about-us .title-us{
+        text-align: center;
+    }
+    .button-contact{
+        margin: 4% 8% 4% 8%;
+    }
+    .about-us .logo{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+
+    /* Body: Section: Contact-us -> styles */
+
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .title-contact{
+        text-align: center;
+    }
+    .contact-us .icon{
+        font-size: 30px;
+    }
+    .redes ul{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+    .redes li{
+        display: grid;
+        padding: 8px 10px 8px 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    textarea{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        margin-top: 2%;
+    }
+
+    /* Body: Footer -> styles */
+
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+        align-items: center;
+    }
+    footer div{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } 
 }
+
+
+
+
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px){
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
 
+    /* Body: Header styles */
+
+    header{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
+
+    /* Body: Main: Section: Services -> styles */
+
+    .servicios{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* Body: Main: Article: AcercaDe -> styles */
+
+    .about-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .about-us .title-us{
+        text-align: center;
+    }
+    .button-contact{
+        margin: 4% 8% 4% 8%;
+    }
+    .about-us .logo{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+
+    /* Body: Section: Contact-us -> styles */
+
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 0%;
+        padding: 0px 0px 0px 0px;
+        margin: 16% 8% 20% 8%;
+    }
+    .title-contact{
+        text-align: center;
+    }
+    .contact-us .icon{
+        font-size: 30px;
+    }
+    .redes ul{
+        max-width: 100%;
+        margin: auto auto auto auto;
+    }
+    .redes li{
+        display: grid;
+        padding: 8px 10px 8px 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    textarea{
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        margin-top: 2%;
+    }
+
+    /* Body: Footer -> styles */
+
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+        align-items: center;
+    }
+    footer div{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } 
 }
+
+
+
+
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-
+    header{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
+    
+    .logo{
+        margin-right: 20px;
+        justify-content: left;
+        padding: auto;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center; 
+        justify-content: right;
+        flex-direction: row;
+        padding: auto;
+    }
+    
+    nav ul{
+        list-style: none;
+        position: right;
+    }
+    
+    nav li{
+        display: grid;
+        padding: 25px 20px;
+    }
+    
+    nav li a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    nav li a:hover{
+        color: rgb(63, 63, 63);
+    }
+    
+    /* Body: Main: Section: Services -> styles */
+    
+    main{
+        padding-top: 5%;
+    }
+    
+    .title{
+        align-content: center;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    .title h2{
+        font-size: 40px;
+        text-decoration: underline red;
+    }
+    
+    .servicios{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    
+    .card-services{
+        display: flex;
+        align-items: center; 
+        justify-content: right;
+        flex-direction: column;
+        padding: 50px 5px 10px 5px;
+        margin: 10px;
+        height: 300px;
+        max-width: auto;
+        background-color: rgb(240, 240, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(63, 63, 63);
+    }
+    .card-services h3{
+        font-size: 30px;
+    }
+    .service-text{
+        padding: 0px 5px 20px 5px;
+        font-size: 24;
+    }
+    .go{
+        height: 50px;
+        width: 250px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        margin: auto;
+        background-color: rgb(27, 27, 27);
+        color: white;
+        font-weight: bold;
+        
+    }
+    .go:hover{
+        background-color: rgb(63, 63, 63);
+    }
+    
+    /* Body: Main: Article: AcercaDe -> styles */
+    
+    .about-us{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        gap: 150px;
+        padding: 2% 150px 8% 150px;
+        margin: auto;
+    }
+    .title-us{
+        align-content: center;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .title-us h2{
+        font-size: 30px;
+        text-decoration: underline red;
+    }
+    .title-us p{
+        padding-left: 30px;
+    }
+    
+    .button-contact{
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        margin: auto;
+        background-color: rgb(27, 27, 27);
+        color: white;
+        font-weight: bold;
+        
+    }
+    .button-contact:hover{
+        background-color: rgb(63, 63, 63);
+    }
+    
+    
+    /* Body: Section: Contact-us -> styles */
+    
+    .contact-us{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        gap: 150px;
+        padding: 2% 150px 8% 150px;
+        margin: auto;
+    }
+    
+    .title-contact{
+        align-content: center;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .title-contact h2{
+        font-size: 30px;
+        text-decoration: underline red;
+    }
+    .title-contact p{
+        padding-left: 30px;
+    }
+    
+    
+    input[type="text"], input[type="email"], input[type="tel"]{
+        display: grid;
+        width: 100%;
+        border: 1px solid rgb(63, 63, 63);
+        color: black;
+        border-radius: 10px;
+        padding: 15px 10px 15px 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    textarea{
+        width: 100%;
+        border: 1px solid rgb(63, 63, 63);
+        color: black;
+        border-radius: 10px;
+        padding: 15px 10px;
+        font-size: 16px;
+        resize: none;
+        margin: auto;
+    }
+    
+    .form label{
+        color: black;
+        text-decoration: 2px underline red;
+        font-size: 18px;
+    }
+    .submit-contact{
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        margin: auto;
+        background-color: rgb(27, 27, 27);
+        color: white;
+        font-weight: bold;
+        
+    }
+    .submit-contact:hover{
+        background-color: rgb(63, 63, 63);
+    }
+    
+    .redes{
+        display: flex;
+        align-items: right; 
+        padding: auto;
+    }
+    
+    .redes ul{
+        list-style: none;
+        position: right;
+    }
+    
+    .redes li{
+        display: grid;
+        padding: 25px 20px;
+    }
+    
+    .redes li i:hover{
+        color: rgb(63, 63, 63);
+    }
+    
+    
+    /* Body: Footer -> styles */
+    
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        align-content: center;
+        align-items: center;
+    
+        border-top: 1px solid rgb(63, 63, 63);
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .logo img{
+        margin: auto;
+        max-height: 100%;
+        padding: 8% 0% 0% 18%;
+    }
+    footer .redes{
+        padding: 0% 0% 0% 21%;
+    }
+    .footer-icon{
+        font-size: 30px;
+        color: black;
+    }
+    
+    footer .footer-h3{
+        text-align: left;
+        font-size: 24px;
+        text-decoration: underline red;
+    }
+    
+    footer ul{
+        list-style: none;
+        position: right;
+    }
+    
+    footer li{
+        display: grid;
+    }
+    
+    footer li a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    footer li a:hover{
+        color: rgb(63, 63, 63);
+    }
+    
+    /* /pages/contact.html :: Main: contac-with-us -> styles */
+    
+    #contac-with-us{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    
+    
+    /* Service pages -> general styles - pre-one */
+    
+    .servicio{
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 40px;
+        padding: 1% 150px 8% 150px;
+    
+        font-size: 18px;
+    }
+    .servicio h1{
+        align-content: center;
+        text-align: center;
+        font-size: 40px;
+        text-decoration: underline red;
+    
+    }
+    
+    #div1{
+        font-size: 26px;
+        text-align: center;
+    }#div1 #p0{
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    #div2{
+        gap: 40px;
+        text-align: center;
+    }
+    
+    /* CARDS -plans */
+    
+    .planes{
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 40px;
+        padding: 1% 150px 8% 150px;
+    
+        font-size: 18px;
+    }
+    .planes h2{
+        text-align: center;
+        text-decoration: underline red;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-items: left;
+        gap: 40px;
+        padding: 1% 150px 8% 150px;
+    
+        font-size: 18px;
+    
+    }.card-plan{
+        display: flex;
+        align-items: center; 
+        justify-content: right;
+        flex-direction: column;
+    
+        padding: 50px 5px 10px 5px;
+        margin: 10px;
+    
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: 300px;
+    
+        background-color: rgb(240, 240, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(63, 63, 63);
+    }
+    .card-plan p{
+        text-align: center;
+    }
+    .card-plan h3{
+        font-size: 30px;
+        text-decoration: underline red;
+        font-weight: bold;
+    }
+    .card-plan ul{
+        list-style: none;
+        /* position: right; */
+    }
+    .card-plan li{
+        padding: 5px 20px;
+    }
+    .card-plan li i:hover{
+        color: rgb(63, 63, 63);
+    }
+    .card-plan li.prize{
+        height: 50px;
+        width: 150px;
+        border-radius: 5px;
+        padding: 20px 5px 5px 5px;
+        margin: auto;
+        color: black;
+    }
+    .plan-description{
+        font-size: 24px;
+    }
+    
+    
+    #column-1{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        gap: 150px;
+        padding: 2% 150px 8% 150px;
+    }
+    
+    #column-2{
+         display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        gap: 150px;
+        padding: 2% 150px 8% 150px;
+    }
+    
+    #column-3{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        gap: 150px;
+        padding: 2% 150px 8% 150px;
+    
+    }
 }
